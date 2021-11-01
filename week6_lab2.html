@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="CSS">
+  <meta name="keywords" content="Flex box">
+  <meta name="author" content="Abigail Ries">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Abigail Ries. Completion Date 10/12/21-->
+
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 80px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 42px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+  <div>This</div>
+  <div>is</div>
+  <div>an</div>  
+  <div>example</div>
+  <div>of</div>
+  <div>flexible</div>  
+  <div>boxes</div>
+  <div>resize</div>
+  <div>them</div>
+</div>
+
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+</body>
+</html>
